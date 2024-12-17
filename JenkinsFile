@@ -7,7 +7,7 @@ pipeline {
         }
     }
 environment {
-    PATH = "/opt/apache-maven-3.9.2/bin:$PATH"
+    PATH = "/usr/share/maven/bin:$PATH"
 }
     stages {
         stage("build"){
@@ -17,6 +17,7 @@ environment {
                  echo "----------- build complted ----------"
             }
         }
+
 		        
         stage("test"){
             steps{
@@ -52,3 +53,7 @@ environment {
             }
   }
 }
+=======
+ }
+}
+
