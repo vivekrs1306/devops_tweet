@@ -1,4 +1,4 @@
-def imageName = 'vivekvicky.jfrog.io/ttrend/'
+def imageName = 'vivekvicky.jfrog.io/ttrend/dev'
 def registry = 'https://vivekvicky.jfrog.io'
 def version   = '2.1.2'
 pipeline {
